@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Collections; // Make sure this import is included
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/tickets")
 public class TicketController {
     @Autowired
